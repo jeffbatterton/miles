@@ -40,5 +40,6 @@
   }
 
   html {
-    color: var(--Brand-Positive)
+    font-family: nunito sans, sans-serif;
+    color: var(--Brand-Positive);
   }
