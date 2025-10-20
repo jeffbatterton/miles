@@ -1,0 +1,44 @@
+/* Primitives - Base */
+:root {
+    --Green-500: #00C467FF;
+    --Green-300: #B2EDD1FF;
+    --Green-200: #CCF3E1FF;
+    --Green-100: #E5F9F0FF;
+    --Red-500: #E4572EFF;
+    --Grey-100: #FCFDFDFF;
+    --White-500: #FFFFFFFF;
+    --Grey-200: #FAFAFAFF;
+    --Grey-300: #ECECECFF;
+    --Grey-400: #B8BFC2FF;
+    --Grey-500: #8A9397FF;
+    --Grey-600: #4B5356FF;
+    --Grey-700: #2B3133FF;
+    --Grey-800: #1D2122FF;
+  }
+
+/* Colors - Base */
+:root {
+    --Brand-Positive: var(--Green-500);
+    --Brand-Negative: var(--Red-500);
+    --Background-Primary: var(--White-500);
+    --Background-Secondary: var(--Grey-300);
+    --Background-Input-Default: var(--Green-100);
+    --Background-Input-Active: var(--Green-200);
+    --Background-Button-Primary: var(--Brand-Positive);
+    --Background-Button-Secondary: var(--Background-Secondary);
+    --Background-Button-Negative: var(--Brand-Negative);
+    --Text-Primary: var(--Grey-700);
+    --Text-Secondary: var(--Grey-600);
+    --Text-Tertiary: var(--Grey-500);
+    --Text-Negative: var(--Brand-Negative);
+    --Text-Inverted: var(--White-500);
+    --Border-Default: var(--Grey-300);
+    --Border-Brand: var(--Green-200);
+    --Icon-Primary: var(--Grey-400);
+    --Icon-Secondary: var(--Grey-500);
+    --Icon-Brand: var(--Brand-Positive);
+  }
+
+  html {
+    color: var(--Brand-Positive)
+  }
